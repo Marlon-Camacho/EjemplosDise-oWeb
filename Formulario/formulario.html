@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Formulario y Nuevos Controles</title>
+</head>
+
+<body>
+    <section>
+        <form action="." name="form1" method="post">
+            <p>
+                Nombre: <input type="text" name="name_control" autofocus required/>
+                <br>
+                Correo Electronico: <input type="email" name="email_control" required/>
+                <br>
+                URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal"/>
+                <br>
+                Fecha: <input type="date" name="date_control"/>
+                <br>
+                Tiempo: <input type="time" name="time_control"/>
+                <br>
+                Fecha y Hora de Nacimiento: <input type="datetime" name="datetime_control"/>
+                <br>
+                Mes: <input type="month" name="month_control"/>
+                <br>
+                Semana: <input type="week" name="week_control"/>
+                <br>
+                Número (mín -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0"/>
+                <br>
+                Intervalo (mín 0, max 10): <input type="range" name="range_control" min="0" max="10" value="0"/><output for="range_control" name="range_control_value"></output> 
+                <br>
+                Teléfono: <input type="tel" name="tel_control"/>
+                <br>
+                Termino de búsqueda: <input type="search" name="search_control"/>
+                <br>
+                Color Favorito: <input type="color" name="color_control"/>
+                <br>
+                <input type="submit" value="Enviar"/>
+            </p>
+        
+    </section>
+        </form>
+</body>
+</html>

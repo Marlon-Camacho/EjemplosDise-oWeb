@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Citas</title>
+    <style>
+        p {color: #660000; font-size: 20px;}
+        h2 {color: #FF0066}
+    </style>
+</head>
+<body>
+    <form action="." method="post" style="text-align: center;">
+        <h2>Datos del paciente</h2>
+        <p>Nombres del paciente: <input type="text" name="NombresDelPaciente" placeholder="Indique su nombre"/></p>
+        <p>Apellidos del paciente: <input type="text" name="ApellidosDelPaciente" placeholder="Indique su apellido"/></p>
+        <p>¿El paciente es menor de edad?: <select name="MinoriaDeEdad"><option>Si</option><option>No</option></select></p>
+        <p>Documento de Identidad: <input type="number" name="NumeroDeIdentidad" placeholder="Numero de identificación"/> Ciudad de Expedición: <input type="text" name="CudadDeExpedicion"/></p>
+        <p><b>Telefonos de Contacto</b></p>
+        <p>Numero de Casa: <input type="tel" name="NumeroCasa"/> Numero Celular: <input type="tel" name="NumeroCelular"/></p>
+        <p>Dirección: <input type="text" name="Direccion" placeholder="Indique su dirección de residencia"/></p>
+        <br>
+        <h2>Datos de la Cita</h2>
+        <p>Departamento: <input type="text" name="DepartamentoDeLaCita"/> Ciudad: <input type="text" name="CiudadDeLaCita"/></p>
+        <p>Tipo de Cita: <select name="TipoDeCita"><option>Medico General</option><option>Especialista</option></select></p>
+        <p>Fecha de la cita: <input type="date" name="FechaDeLaCita"/></p>
+        <p><b>Lugar de la cita</b></p>
+        <p>Centro Medico de: <input type="text" name="CiudadCentro" placeholder="Ciudad en el que se ubica"/> En el Barrio: <input type="text" name="BarrioCentro" placeholder="Barrio en el que se ubica"/></p>
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>

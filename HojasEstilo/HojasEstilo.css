@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Comicy';
+    src: url('/HojasEstilo/Comicy.otf') format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Komikax';
+    src: url('/HojasEstilo/KOMIKAX_.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'KomikaxBG';
+    src: url('/HojasEstilo/KOMIKABG.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+header {
+    background-color:#993333;
+    border: double;
+    text-align: center;
+    font-family: 'Comicy';
+}
+
+aside {
+    border: 0.25px;
+    background-color: #996600;
+}
+
+footer {
+    border: 5px;
+    background-color: #99cc00;
+    
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-family: 'Komikax';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'KomikaxBG';
+    text-align: center;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: #cc3300;
+}
